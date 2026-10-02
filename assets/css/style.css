@@ -806,5 +806,5 @@ section { padding: 5rem 0; }
 .price-box h3 { font-family: var(--font-h); font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; background: var(--dark-4); color: var(--white); padding: .65rem 1rem; margin: 0; }
 .price-box table { width: 100%; border-collapse: collapse; }
 .price-box td { padding: .55rem 1rem; font-size: .9rem; color: rgba(255,255,255,.85); border-top: 1px solid var(--dark-4); white-space: nowrap; }
-.price-box td:last-child { text-align: right; font-weight: 700; color: var(--red); white-space: nowrap; }
+.price-box td:last-child:not(:first-child) { text-align: right; font-weight: 700; color: var(--red); white-space: nowrap; }
 .price-note { font-size: .8rem !important; color: var(--gray-500); }
