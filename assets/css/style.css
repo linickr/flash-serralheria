@@ -799,3 +799,12 @@ section { padding: 5rem 0; }
   .gsc-metrics { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== TABELA DE PREÇOS – GRADES PRONTA ENTREGA ===== */
+.price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.price-box { background: var(--dark-3); border: 1px solid var(--dark-4); border-radius: var(--r-lg); overflow: hidden; }
+.price-box h3 { font-family: var(--font-h); font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; background: var(--dark-4); color: var(--white); padding: .65rem 1rem; margin: 0; }
+.price-box table { width: 100%; border-collapse: collapse; }
+.price-box td { padding: .55rem 1rem; font-size: .9rem; color: rgba(255,255,255,.85); border-top: 1px solid var(--dark-4); white-space: nowrap; }
+.price-box td:last-child { text-align: right; font-weight: 700; color: var(--red); white-space: nowrap; }
+.price-note { font-size: .8rem !important; color: var(--gray-500); }
